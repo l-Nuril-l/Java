@@ -1,0 +1,17 @@
+package Models;
+
+public enum MESSAGE_ACTION {
+    SYSTEM,
+    DOWNLOAD,
+    NEW_GROUP,
+    NEW_GROUP_USER,
+    RENAME_GROUP,
+    NEW_USER,
+    DEL_USER,
+    RENAME_USER, ADD_USER_TO_GROUP, LEAVE_GROUP,
+    CALL_REQUEST,
+    CALL_ACCEPT,
+    CALL_REJECT,
+    CALL_DATA,
+    CALL_END
+}
